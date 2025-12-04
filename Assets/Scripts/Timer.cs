@@ -6,7 +6,9 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoTimer;
     [SerializeField] float tempoRestante;
 
-    void Start ()
+    public bool acabou = false;
+
+  void Start ()
     {
        int minutos = Mathf.FloorToInt(tempoRestante / 60);
         int segundos = Mathf.FloorToInt(tempoRestante % 60);
@@ -27,6 +29,7 @@ public class Timer : MonoBehaviour
             tempoRestante = 0;
             //Game Over();
             textoTimer.color = Color.red;
+            acabou = true;
             Time.timeScale = 0;
       }  
 

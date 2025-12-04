@@ -247,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoTimer: {fileID: 941528181}
   tempoRestante: 10
+  acabou: 0
 --- !u!1 &250181999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1071,7 @@ MonoBehaviour:
   contador: 0
   spawnPoint: {fileID: 1276673983}
   objetogerado: {fileID: 8432625110793100867, guid: 40ee489fd9648254da64888e6ab63ae6, type: 3}
+  meuTimer: {fileID: 161311864}
 --- !u!1 &865097370
 GameObject:
   m_ObjectHideFlags: 0
