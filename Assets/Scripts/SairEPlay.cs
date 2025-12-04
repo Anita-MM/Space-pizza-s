@@ -16,7 +16,7 @@ public void SairDoJogo()
 
 public void VoltarProMenu()
 {
-    SceneManager.LoadScene("Menu");
+    SceneManager.LoadScene("MenuScene");
 }
 
 
